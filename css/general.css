@@ -29,6 +29,8 @@ code {
     #0072ff 51%,
     #00c6ff 100%
   );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
 }
