@@ -3,7 +3,7 @@
 
 @media screen and (min-width: 768px) {
   html {
-    font-size: 56.25%;
+    font-size: 46%;
   }
 
   .container {
@@ -60,4 +60,41 @@
   .testimonials-container {
     flex-direction: row;
   }
+}
+
+@media screen and (min-width: 1200px){
+ html{
+   font-size: 62.5%;
+ } 
+
+ .container {
+  padding: 0 4.8rem;
+}
+.hero {
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-text-box {
+  justify-self: end;
+}
+
+.hero-download {
+  justify-content: space-around;
+}
+
+ .pricing-plan {
+  border-radius: 11px;
+  width: 70%;
+}
+.pricing-plan--free {
+  justify-self: end;
+}
+
+.pricing-plan--plus {
+  justify-self: start;
+}
+
+.testimonials-container {
+  flex-direction: row;
+}
 }
