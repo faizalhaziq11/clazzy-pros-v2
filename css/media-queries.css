@@ -6,6 +6,27 @@
     font-size: 46%;
   }
 
+  .header {
+    justify-content: center;
+  }
+  .main-nav {
+    all: unset;
+  }
+
+  .main-nav-list {
+    display: flex;
+    flex-direction: row;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    opacity: 1;
+    color: #333;
+    font-weight: 600;
+  }
+  .btn-mobile-nav {
+    display: none;
+  }
+
   .container {
     max-width: none !important;
     padding: 0 4.8rem;

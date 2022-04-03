@@ -100,29 +100,6 @@
   display: none;
 }
 
-@media screen and (min-width: 768px) {
-  .header {
-    justify-content: center;
-  }
-  .main-nav {
-    all: unset;
-  }
-
-  .main-nav-list {
-    display: flex;
-    flex-direction: row;
-  }
-  .main-nav-link:link,
-  .main-nav-link:visited {
-    opacity: 1;
-    color: #333;
-    font-weight: 600;
-  }
-  .btn-mobile-nav {
-    display: none;
-  }
-}
-
 /* *************************************** */
 /* section hero */
 /* *************************************** */
