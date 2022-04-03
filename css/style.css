@@ -179,12 +179,15 @@
 
 .logos {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .logo-img {
-  width: 6.4rem;
+  width: 8rem;
   border-radius: 50%;
+  background: white;
+  object-fit: contain;
+  object-position: 50% 50%;
 }
 
 .logo-img img {
@@ -374,6 +377,7 @@
 .testimonials-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 2.4rem;
 }
 
@@ -382,21 +386,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   padding: 1.8rem;
   gap: 1.8rem;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 9px;
+  width: 36rem;
 }
 
 .testimonials-img {
-  width: 15.6rem;
-  height: 15.6rem;
+  width: 10.8rem;
+  height: 10.8rem;
   overflow: hidden;
   border-radius: 50%;
 }
 
 .testimonials-img img {
   width: 100%;
+  /* object-fit: contain; */
 }
 .testimonials-text {
   font-size: 1.8rem;
