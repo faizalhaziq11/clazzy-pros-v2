@@ -36,9 +36,9 @@
 
 .main-nav {
   position: absolute;
-  top: 100%;
   background-color: var(--beta);
   width: 100%;
+  top: 100%;
   transform: scale(1, 0);
   transform-origin: top;
   transition: transform 400ms ease-in-out;

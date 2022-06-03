@@ -50,6 +50,7 @@ code {
 .neon-green--text {
   color: rgb(0, 255, 0);
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -127,7 +128,6 @@ body {
 .btn:link,
 .btn:visited {
   display: inline-block;
-
   text-decoration: none;
   font-size: 1.6rem;
   font-weight: 600;
